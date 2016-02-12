@@ -1,10 +1,9 @@
-'use strict';
-
+import HellofromJSON from '../../data/Hello.json';
 
 module.exports = function () {
     var element = document.createElement('h1');
 
-    element.innerHTML = 'Hello world Part 2';
+    element.innerHTML = HellofromJSON.greetText;
 
     return element;
 };

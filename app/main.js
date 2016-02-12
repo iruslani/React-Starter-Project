@@ -1,5 +1,3 @@
-'use strict';
-var component = require('./component.js');
+import HelloWorld from './components/HelloWorld';
 
-
-document.body.appendChild(component());
+document.body.appendChild(HelloWorld());
