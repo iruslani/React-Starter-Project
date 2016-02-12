@@ -1,0 +1,29 @@
+{
+  "name": "starterproject",
+  "version": "1.0.0",
+  "description": "My 1st starter project",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server --devtool eval --progress --colors --hot --content-base build",
+    "test": "test"
+  },
+  "keywords": [
+    "WebPack",
+    "React",
+    "Router",
+    "Authentication",
+    "ServerSide",
+    "Rendering",
+    "and",
+    "API"
+  ],
+  "author": "Iwan Ruslani",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^1.12.13"
+  },
+  "dependencies": {
+    "webpack-dev-server": "^1.14.1"
+  }
+}
