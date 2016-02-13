@@ -1,3 +1,5 @@
+import React from 'react';
+import {render} from 'react-dom';
 import HelloWorld from './components/HelloWorld';
 
-document.body.appendChild(HelloWorld());
+render(<HelloWorld />, document.getElementById('root'));

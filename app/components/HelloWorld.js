@@ -1,9 +1,14 @@
-import HellofromJSON from '../../data/Hello.json';
+import React, {Component} from 'react'
+import Hello from '../../data/Hello.json';
 
-module.exports = function () {
-    var element = document.createElement('h1');
+class Greeter extends Component{
+  render() {
+    return (
+      <div>
+        {Hello.greetText}
+      </div>
+    );
+  }
+}
 
-    element.innerHTML = HellofromJSON.greetText;
-
-    return element;
-};
+export default Greeter
