@@ -19,8 +19,7 @@ A minimal React JS application starter kit created to learn to build web/mobile 
   - React Server side code (Isomorphic/Universal JS)
 - Add Redux or GraphQL/Relay
 - Add authentication (JWT, Auth0, Passport.js, or )
-- React Routers (Redux router?)
--   
+-React Routers (Redux router?)   
 
 
 ## Usage
