@@ -5,7 +5,7 @@ class Greeter extends Component{
   render() {
     return (
       <div>
-        {Hello.greetText}
+        <h1>{Hello.greetText}</h1>
       </div>
     );
   }
