@@ -30,5 +30,9 @@ module.exports = {
           loader: 'style!css'
         }
       ]
+    },
+    resolve: {
+      // you can now require('file') instead of require('file.coffee')
+      extensions: ['', '.js', '.json'] 
     }
 };
