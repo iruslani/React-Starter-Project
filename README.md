@@ -7,16 +7,21 @@ A minimal React JS application starter kit created to learn to build web/mobile 
 - [WebPack](http://webpack.github.io/docs/)
   - [WebPack Cookbook](http://christianalfoni.github.io/react-webpack-cookbook/index.html)
   - [WebPack React Guide From 'Pro React Book' ](http://www.pro-react.com/materials/appendixA/)
+  - [WebPack Template](https://github.com/petehunt/webpack-howto)
   - Includes JSON, JS (babel and ES2015 enabled) and CSS loaders.
 - [React](https://facebook.github.io/react/)
 
 ## Road Map:
 
 - Add more react components
+  - http://www.reactjsx.com/
+  - http://semantic-ui.com/
 - Add server side code with:
   - EXPRESS
   - MongoDB
   - React Server side code (Isomorphic/Universal JS)
+    - https://24ways.org/2015/universal-react/
+    -
 - Add Redux or GraphQL/Relay
 - Add authentication (JWT, Auth0, Passport.js, or )
 - React Routers (Redux router?)   
