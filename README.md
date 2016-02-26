@@ -10,6 +10,7 @@ A minimal React JS application starter kit created to learn to build web/mobile 
   - [WebPack Template](https://github.com/petehunt/webpack-howto)
   - Includes JSON, JS (babel and ES2015 enabled) and CSS loaders.
 - [React](https://facebook.github.io/react/)
+- [React Router](https://github.com/reactjs/react-router)
 - [Express](http://expressjs.com/)
 
 ## Road Map:
