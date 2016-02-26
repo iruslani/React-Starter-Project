@@ -19,6 +19,7 @@ A minimal React JS application starter kit created to learn to build web/mobile 
   - http://semantic-ui.com/
 - React Server side code (Isomorphic/Universal JS)
   - [Universal React](https://24ways.org/2015/universal-react/)  
+- Add tests
 - MongoDB
 - Add Redux or GraphQL/Relay ?
 - Add authentication (JWT, Auth0, or Passport.js )
@@ -32,9 +33,6 @@ A minimal React JS application starter kit created to learn to build web/mobile 
 __Install the dependencies:__
 `npm install`
 
-__Test:__
-`npm run test`
-
 __Development mode with livereload:__
 `npm run dev`
 (Then go to: localhost8080)
@@ -45,6 +43,10 @@ __Runs Webpack Dev Server:
 
 __When you are done, create a production ready version of the JS bundle:__
 `npm run build`
+
+__Test:__
+`npm run test`
+(Not yet working)
 
 ## License
 
