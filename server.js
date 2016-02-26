@@ -4,19 +4,7 @@ import React from 'react';
 import { renderToString } from 'react-dom/server';
 import { match, RouterContext } from 'react-router';
 
-import AppComponent from './app/components/app';
-import IndexComponent from './app/components/index';
-
-const routes = {
-  path: '',
-  component: AppComponent,
-  childRoutes: [
-    {
-      path: '/',
-      component: IndexComponent
-    }
-  ]
-}
+import { routes } from './routes';
 
 const app = express();
 
